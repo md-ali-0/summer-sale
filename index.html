@@ -1,26 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Title -->
     <title>Summer Sale Landing Page</title>
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap"
-  rel="stylesheet">
-</head>
-<body>
-    <!-- Header -->
-    <header>
+        rel="stylesheet">
 
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .font-Work_Sans{
+            font-family: 'Work Sans', 'sans-serif';
+        }
+    </style>
+</head>
+
+<body class="font-Work_Sans bg-body">
+    <!-- Header -->
+    <header class="bg-[#F9F6E2]">
+        <!-- Container -->
+        <div class="container mx-auto">
+            <!-- Banner Start -->
+            <div class="flex flex-col md:flex-row justify-evenly items-center py-20">
+                <div class="text-center w-3/4 md:w-1/2">
+                    <h4 class="text-xl md:text-3xl md:font-medium">---SALE FEVER---</h4>
+                    <h1 class="text-3xl font-bold mt-3 md:font-bold md:text-5xl md:mt-5">Purchase TK 200 or <br> above &
+                        get <span class="text-[#E527B2]">20%
+                            off</span></h1>
+                    <div class="flex flex-col md:flex-row justify-center items-center mt-5">
+                        <p class="text-center text-2xl">Use Promo Code</p>
+                        <span class="bg-[#E527B2] rounded-lg px-5 py-2 m-2 text-white">SELL200</span>
+                    </div>
+                </div>
+                <!-- Banner Image -->
+                <img class="w-[400px]" src="images/Summer 1.png" alt="">
+            </div>
+        </div>
     </header>
     <!-- Main App -->
     <main>
 
     </main>
 </body>
+
 </html>
